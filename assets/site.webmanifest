@@ -1,0 +1,62 @@
+{
+  "id": "../",
+  "name": "В круге — молитвенное колесо",
+  "short_name": "В круге",
+  "description": "Тибетское молитвенное колесо, мантра «Ом мани падме хум» и практика сострадания.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "../",
+  "scope": "../",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#e7d8ca",
+  "theme_color": "#e7d8ca",
+  "categories": [
+    "lifestyle"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Молитвы и мантры",
+      "short_name": "Молитвы",
+      "description": "Мантра сострадания, молитвенное устремление и посвящение заслуги.",
+      "url": "../prayers.html"
+    },
+    {
+      "name": "Практики молитвы",
+      "short_name": "Практики",
+      "description": "Рецитация мантры, медитация и посвящение блага.",
+      "url": "../practices.html"
+    }
+  ]
+}
